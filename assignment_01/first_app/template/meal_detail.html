@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Meal Detail{% endblock %}
+
+{% block content %}
+    <h1>{{ meal.strMeal }}</h1>
+    <img src="{{ meal.strMealThumb }}" alt="{{ meal.strMeal }}">
+    <p>{{ meal.idMeal }}</p>
+{% endblock %}
